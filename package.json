@@ -2,13 +2,11 @@
   "name": "IntroHCI",
   "version": "0.0.1",
   "author": "Intro HCI Staff",
-
   "repository": {
     "type": "git",
     "url": "https://github.com/IntroHCI/lab5"
   },
   "license": "MIT",
-
   "private": true,
   "scripts": {
     "start": "node server.js"
@@ -19,5 +17,8 @@
   },
   "engines": {
     "node": "0.10.x"
-  }  
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
 }
